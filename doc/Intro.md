@@ -29,7 +29,7 @@ You'll need to register the plugin when your aurelia app is bootstrapping. If yo
 ```
 Change the *aurelia-app* attribute to *aurelia-app="main"*.
 ``` html
-<body aurelia-main="main">
+<body aurelia-app="main">
 ```
 The aurelia framework will now bootstrap the application by looking for your **main.js** file and executing the exported *configure* method. Go ahead and add a new **main.js** file with these contents:
 ``` javascript
